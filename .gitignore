@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+db.sqlite3
+# Log files
+*.log
+
+# Generated files
+__pycache__/
+*.pyc
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.pyc
+*.pyo
+*~
+
+# Secret keys
+.env
+
+# Sensitive information
+*.secret
+
+# Static files
+static/
+
+# Media files
+media/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+pyproject.toml
+poetry.lock
+
+# pip
+requirements.txt
